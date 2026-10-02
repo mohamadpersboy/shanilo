@@ -1,0 +1,22 @@
+
+
+{
+	"sEmptyTable":		"داده ای در جدول وجود ندارد",
+	"sInfo":			"_START_ - _END_ / _TOTAL_ مورد",
+	"sInfoEmpty":		"",
+	"sInfoFiltered":	"(فیلتر شده از مجموع _MAX_ مورد)",
+	"sInfoPostFix":		"",
+	"sInfoThousands":	",",
+	"sLengthMenu":		"_MENU_ آیتم در هر صفحه",
+	"sLoadingRecords":	"",
+	"sProcessing":		"",
+	"sSearch":			"",
+	"sZeroRecords":		"موردی یافت نشد",
+	"sUrl":				"",
+	"oPaginate": {
+		"sFirst":    "ابتدا",
+		"sPrevious": "قبلی",
+		"sNext":     "بعدی",
+		"sLast":     "انتها"
+	}
+}

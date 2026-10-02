@@ -1,0 +1,363 @@
+/* Milad Edit */
+.boxed_color{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* End Milad Edit */
+
+.factor_style1 {
+    position:relative;
+}
+.factor_style1 .factor_part1 {
+    position: relative;
+    padding-top: 20px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.factor_style1 .factor_part1 .title {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #7a859c;   
+    text-align: center;
+}
+.factor_style1 .factor_part1 .logo {
+    position: absolute;
+    left: 25px;
+    top: -10px;
+    width: 120px;
+    height: 85px;
+    background: none no-repeat center center / contain;
+} 
+.factor_style1 .factor_part1 .print {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.factor_style1 .factor_part2 .table1,
+.factor_style1 .factor_part2 .table1 table{
+    border-collapse: collapse;
+	border-radius: 2px;
+	width: 100%;
+	vertical-align:middle;
+    text-align: center;
+}
+.factor_style1 .factor_part2 .table1 .user_info {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+.factor_style1 .factor_part2 .table1 .user_info:before {
+    content: '';
+    position:absolute;
+    width: 40px;
+    top: 0; right:0; bottom:0;
+    background-color: rgba(0,0,0,0.55);
+}
+.factor_style1 .factor_part2 .table1 .vert_label{
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.factor_style1 .factor_part2 .table1 .vert_label .outer_text {
+    height: 100%;
+    position: relative;
+    width: 40px;
+}
+.factor_style1 .factor_part2 .table1 .vert_label .inner_text {
+    font-size: 1.3rem;
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    letter-spacing: 1px;
+}
+.factor_style1 .factor_part2 .table1 table {width: 100%;}
+.factor_style1 .factor_part2 .table1 .user_info .info_row {
+    border-bottom: 1px solid #e0e0e0;
+}
+.factor_style1 .factor_part2 .table1 .user_info .info_row:last-child {
+    border-bottom: 0 none;
+}
+.factor_style1 .factor_part2 .table1 .user_info .info_col {
+    padding: 10px;
+}
+.factor_style1 .factor_part2 .table1 .user_info .info_item {
+    float: right;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    line-height:29px;
+}
+.factor_style1 .factor_part2 .table1 .user_info .info_item .item_name {
+    color: #CB1B4F;
+    display: inline-block;
+}
+.factor_style1 .factor_part2 .table1 .user_info .info_item .item_val {
+    color: #444;
+    display: inline-block;
+}
+.factor_style1 .factor_part2 .table1 .pay_info {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    padding: 20px 0;
+}
+.factor_style1 .factor_part2 .table1 .pay_info:before {
+    content: '';
+    position:absolute;
+    width: 40px;
+    top: 0; right:0; bottom:0;
+    background-color: rgba(0,0,0,0.55);
+}
+.factor_style1 .factor_part2 .table1 .pay_info .date {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #444;
+}
+.factor_style1 .factor_part2 .table1 .pay_info .title_style2 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+.factor_style1 .factor_part2 .table1 .pay_info .barcode_img {
+    display: inline-block;
+    margin: 0 auto 6px;
+    opacity: 0.7;
+}
+.factor_style1 .factor_part2 .table1 .pay_info .barcode_no {
+    font-size: 1.2rem;
+}
+.factor_style1 .factor_part2 .table1 .pay_info .pay_type {
+    font-size: 1.4rem;
+}
+
+.factor_style1 .factor_part3.table_style1 thead th {
+    color: #555;
+    font-size: 1.2rem;
+    background: rgba(128, 128, 128, 0.11);
+}
+.factor_style1 .factor_part3.table_style1 td.pic .pic {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: none no-repeat center center / contain;
+}
+.factor_style1 .factor_part3.table_style1 td.name {
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+.factor_style1 .factor_part3.table_style1 td.price_total {
+    font-size: 1.25rem;
+    color: #00b626;
+    letter-spacing: 1.5px;
+}
+.factor_style1 .factor_part3.table_style1 td.price_unit .discount {
+    color: #f00;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    display: inline-block;
+}
+.factor_style1 .factor_part3.table_style1 td.price_unit .price {
+    text-decoration: line-through;
+    margin-left: 15px;
+    color: #aaa;
+}
+.factor_style1 .factor_part3.table_style1 td.price_unit .price_discount {
+    font-size: 1.2rem;  
+    letter-spacing: 1px;
+    color: #009bf3;
+}
+.factor_style1 .factor_part3.table_style1 tr {
+    border-bottom: 1px solid #e5e5e5;
+}
+.factor_style1 .factor_part3.table_style1 td {
+    border-left: 1px solid hsla(220, 21%, 73%, 0.2);
+}
+.factor_style1 .factor_part3.table_style1 td:last-child {
+    border-left: 0 none;
+}
+.factor_style1 .factor_part3.table_style1 tr:hover {
+    background-color: #fff;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer .price_name {
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    /*background: rgba(128, 128, 128, 0.07);*/
+    color: #555;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer .price_val {
+    font-size: 1.25rem;  
+    letter-spacing: 1px;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer.amount .price_name{
+    color: #01af26;
+    font-size: 1.5rem;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer.amount .price_val {
+    font-size: 1.6rem;  
+    letter-spacing: 1px;
+    color:#00b626;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer.price_other .price_name {
+    color:#0395e8;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer.price_other .price_val {
+    color:#009bf3;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer.discount .price_name {
+    color:#e00;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer.discount .price_val {
+    color:#f00;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer .factor_text_label {
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    background: rgba(128, 128, 128, 0.06);
+    color: #555;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer .factor_text_label .outer_text {
+    height: 100%;
+    position: relative;
+}
+.factor_style1 .factor_part3.table_style1 tr.table_footer .factor_text_label .inner_text {
+    font-size: 1.3rem;
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    letter-spacing: 1px;    
+}
+.factor_style1 .factor_part4 {
+    padding: 15px 0px 50px 0;
+    border-right:1px solid rgba(170, 180, 200, 0.4);
+    border-bottom:1px solid rgba(170, 180, 200, 0.4);
+    border-left:1px solid rgba(170, 180, 200, 0.4);
+}
+.factor_style1 .factor_part4 .sign_item {
+    float: right;
+    width: 33.3%;
+    color:#888;
+    font-size: 1.2rem;
+    line-height: 25px;
+    text-align: center;
+    position:relative;
+}
+.factor_style1 .factor_part4 .sign_item:before {
+    content:'';
+    position:absolute;
+    left: 0; top: 10px;
+    height: 40px;
+    width: 1px;
+    background-color: #eee;
+}
+.factor_style1 .factor_part4 .sign_item:last-child:before {display:none;}
+.factor_style1 .factor_part5 .returned_item {
+    position: relative;
+    margin-bottom: 25px;
+}
+.factor_style1 .factor_part5 .returned_item:last-child {
+    margin-bottom: 0;
+}
+.factor_style1 .factor_part5 .returned_item .returned_name {
+    border-right: 8px solid #e8094b;
+}
+.factor_style1 .factor_part5 .pic_product {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background: #f7f7f7 none no-repeat center center / contain;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 8px;
+    border: 1px solid #ddd;
+    margin-top: -37px;
+}
+.factor_style1 .table_footer_price.print_only td.outer_table {
+    padding: 15px 5px;
+}
+.factor_style1 .table_footer_price.print_only td.outer_table td.price_item {
+    padding: 0;
+    height: 30px;
+    width: 25%;
+    font-size: 1.2rem;
+}
+.factor_style1 .table_footer_price.print_only td.outer_table td.price_item .price {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.factor_style1 .print_only {display: none;}
+
+@media print{
+@page {size: a4 landscape;}
+* {-webkit-print-color-adjust: exact;}
+.container {width: 1300px;}
+.header_style1,
+.sidebar_style1,
+#all_page_container_bg,
+.factor_detail_part1 .paper_style1 .title_style1,
+.factor_detail_part1 .paper_style1 .btn_group_style2,
+.factor_detail_part1 .factor_part5,
+.user_msg_part1,
+.factor_detail_part1 .log_report ,
+.factor_detail_part1 .btn_group_style1,
+.factor_style1 .factor_part1 .print,
+.factor_detail_part1 .table_style1 td.pic,
+.factor_detail_part1 .table_style1 th.pic,
+.factor_style1 .factor_part1 .logo,
+.msg_sent_part1,
+.result_style2 ,
+.factor_style1 .card_info{ display: none;}
+.factor_style1 .factor_part1 {margin-bottom: 38px;}
+.factor_style1 .factor_part1 .logo { display: block; top: -15px; width: 160px; height: 100px; left: 35px;}
+.mainside_style1 {background-color: #fff; width: 100%; padding: 0; float:none; }
+.paper_style1 {box-shadow:none; padding: 0;}
+ #all_page_container {padding: 0;}
+.factor_style1 {margin-top: 0;}
+.factor_detail_part1 .table_style1 tbody td {padding: 0;}
+.factor_style1 .factor_part3.table_style1 td.factor_text {text-align: center;}
+.factor_style1 tr.print_only {display: table-row;}
+.factor_style1 .screen_only {display: none;}
+.factor_style1 .factor_part3.table_style1 td {border-left: 1px solid #444;}
+.factor_style1 .factor_part3.table_style1 {border: 1px solid #444;}
+.factor_style1 .factor_part3.table_style1 tr,
+.factor_style1 .factor_part3.table_style1 thead tr:last-child {border-bottom: 1px solid #444;}
+.factor_style1 .factor_part3.table_style1 thead th {background: rgba(128, 128, 128, 0.5);border-left: 1px solid #444; color:#111; font-size: 1.45rem;}
+.factor_style1 .factor_part3.table_style1 thead th:last-child {border-left: 0 none;}
+.factor_style1 .factor_part3.table_style1 tr:last-child {border:0 none;}
+.factor_style1 .table_footer_price.print_only td.outer_table td.price_item {border-left: 1px solid #888;}
+.factor_style1 .table_footer_price.print_only td.outer_table td.price_item:last-child {border-left: 0 none;}
+.factor_style1 .factor_part4 { border-color:#333;}
+.factor_style1 .factor_part4 .sign_item:before {background-color: #888;}
+.factor_style1 .factor_part4 .sign_item {color:#222;}
+.factor_style1 .table_footer_price.print_only {background: rgba(128, 128, 128, 0.5);}
+.factor_style1 .table_footer_price.print_only td.outer_table td.price_item {font-size: 1.25rem;}
+.factor_style1 .table_footer_price.print_only td.outer_table td.price_item.amount .price { font-size: 1.7rem; letter-spacing: 2px;}
+.factor_style1 .factor_part1 .title {font-size: 2.2rem; color:#000;}
+.factor_style1 .factor_part3.table_style1 td.price_unit .price {font-size: 1.25rem; color:#888;}
+.factor_style1 .factor_part3.table_style1 td.price_unit .price_discount {font-size: 1.35rem; color:#111;}
+.factor_style1 .factor_part3.table_style1 td.price_unit .discount {color:#333;}
+.factor_style1 .factor_part3.table_style1 td.price_total {font-size: 1.45rem;color:#111;}
+.factor_style1 .factor_part3.table_style1 td.name {color:#111; font-size: 1.3rem;}
+.factor_style1 .table_footer_price.print_only td.outer_table td.price_item {color:#000;} 
+.factor_style1 .factor_part2 .table1 .user_info:before,
+.factor_style1 .factor_part2 .table1 .pay_info:before{background-color: rgba(0,0,0,0.8);}
+.factor_style1 .factor_part2 .table1 .user_info,
+.factor_style1 .factor_part2 .table1 .pay_info {border: 1px solid #333;}
+.factor_style1 .factor_part2 .table1 .user_info .info_row {border-bottom: 1px solid #999;}
+.factor_style1 .factor_part2 .table1 .user_info .info_item {font-size: 1.5rem; line-height: 30px; color:#333;}
+.factor_style1 .factor_part2 .table1 .user_info .info_item .item_name {color:#111;}
+.factor_style1 .factor_part2 .table1 .vert_label .inner_text {font-size: 1.7rem;}
+.factor_style1 .factor_part2 .table1 .pay_info .pay_type {color:#333;font-size: 1.5rem;}
+.factor_style1 .factor_part2 .table1 .pay_info .barcode_no {font-size:1.5rem; }
+.factor_style1 .factor_part2 .table1 .pay_info .date {font-size:1.5rem; color:#111;}
+.dont_show_in_print{ display: none;}
+}/*print*/

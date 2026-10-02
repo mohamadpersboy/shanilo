@@ -1,0 +1,130 @@
+@extends('front.master')
+
+@section('section')
+
+    <section class="other_page">
+        <div class="user_page user_home_page">
+            <div class="container">
+                <div class="inner">
+                    @include('front.partial.user-page-menu')
+                    <div class="personal_detail_style2">
+                        @if(auth()->check() && $user->id==auth()->id() && !$user->shops()->count())
+                            @include('front.partial.parts.build-new-shop')
+                        @endif
+                        @if($specialSuggestions->count())
+                            <div class="title_style3 flex">
+                                <div class="title_part flex">
+                                    <div class="title">پیشنهادات ویژه</div>
+                                </div>
+                                <a href="javascript:void(0)" title="" rel="nofollow" class="btn_part disabled"><i
+                                            class="i-link"></i></a>
+                            </div>
+                            <div class="box_style2">
+                                <ul class="step no_bullet flex">
+                                    @foreach($specialSuggestions as $index=>$specialSuggestion)
+                                        @include('front.partial.items.product',['productDetail'=>$specialSuggestion])
+                                    @endforeach
+                                    <li class="gap"></li>
+                                    <li class="gap"></li>
+                                    <li class="gap"></li>
+                                </ul>
+                            </div>
+                        @endif
+                        @if($specialSells->count())
+                            <div class="title_style3 flex">
+                                <div class="title_part flex">
+                                    <div class="title">فروش ویژه</div>
+                                </div>
+                                <a href="javascript:void(0)" title="" rel="nofollow" class="btn_part disabled"><i
+                                            class="i-link"></i></a>
+                            </div>
+                            <div class="box_style2">
+                                <ul class="step no_bullet flex">
+                                    @foreach($specialSells as $index=>$specialSell)
+                                        @include('front.partial.items.product',['productDetail'=>$specialSell])
+                                    @endforeach
+                                    <li class="gap"></li>
+                                    <li class="gap"></li>
+                                    <li class="gap"></li>
+                                </ul>
+                            </div>
+                        @endif
+                        @if($productDetails->count())
+                            <div class="title_style3 flex">
+                                <div class="title_part flex">
+                                    <div class="title">جدیدترین محصولات</div>
+                                </div>
+                                <a href="javascript:void(0)" title="" rel="nofollow" class="btn_part disabled"><i
+                                            class="i-link"></i></a>
+                            </div>
+                            <div class="box_style2">
+                                @if($productDetails->count())
+                                    <ul id="product-container" class="step no_bullet flex">
+                                        @include('front.partial.items.products')
+                                        <li class="gap before-list"></li>
+                                        <li class="gap"></li>
+                                        <li class="gap"></li>
+                                    </ul>
+                                    @if(hasMorePage($productDetails))
+                                        <a data-url="{{$user->path('personal')}}"
+                                           data-parent="#product-container"
+                                           data-item=".before-list"
+                                           data-page="1" href="javascript:void(0)"
+                                           class="see_more_style1 btn-load-more type2">
+                                            <span>مشاهده بیشتر</span>
+                                        </a>
+                                    @endif
+                                @else
+                                    <div class="noItem_style2 flex">موردی اضافه نشده!</div>
+                                @endif
+                            </div>
+                        @endif
+                        @if(!$specialSuggestions->count() && !$specialSells->count() && !$productDetails->count())
+                                <div class="noItem_style2 flex">موردی یافت نشد!</div>
+                        @endif
+                    </div><!-- personal_detail_style2 -->
+                </div><!-- .inner -->
+            </div><!-- .container -->
+        </div><!-- .user_page -->
+    </section>
+    @if(canEditUser($user))
+        @include('front.partial.upload-img-profile')
+        @include('front.partial.upload-img')
+    @endif
+    @include('front.partial.user-page-modals')
+
+@endsection
+
+@section('js')
+
+
+    <script>
+
+        $(document).ready(function () {
+            /////////////////////////////
+            //add active class
+            $('.personal_detail_style1 .user_part2').addClass('active');
+            /////////////////////////////
+            //sub2
+            $('.have_sub').click(function () {
+                var sub = $(this).find('.sub_style2');
+                var sub_display = $(this).find('.sub_style2').css('display');
+
+                if (sub_display == 'none') {
+                    sub.fadeIn(300);
+                    $(this).addClass('active');
+                } else {
+                    sub.fadeOut(300);
+                }
+
+            });
+            $("body").click(function (e) {
+                if (!$(e.target).is(".have_sub") && !$(e.target).is(".have_sub *")) {
+                    $('.sub_style2').fadeOut(300);
+                }
+            });//body click
+        });//document ready
+
+    </script>
+
+@endsection

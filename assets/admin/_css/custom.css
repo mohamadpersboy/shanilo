@@ -1,0 +1,45 @@
+/**
+* author Reza Sarlak
+*/
+.grid_view_paginate {
+    float: left;
+    text-align: left;
+    margin: 10px 20px 20px 0;
+}
+.grid_view_paginate .item1 {
+    display: inline-block;
+    padding: 7px 12px;
+    min-width: 36px;
+    margin-right: 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #333333;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.grid_view_paginate .item1:first-child {
+    margin-right: 0;
+}
+
+.grid_view_paginate .item1.current,
+.grid_view_paginate .item1.current:hover,
+.grid_view_paginate .item1.current:focus {
+    color: #fff;
+    background-color: #455A64;
+}
+.grid_view_paginate .item1.disabled,
+.grid_view_paginate .item1.disabled:hover,
+.grid_view_paginate .item1.disabled:focus {
+    cursor: default;
+    background-color: transparent;
+    color: #bbb;
+}
+.paginate-left .grid_view_paginate {
+    float: right;
+}
+
+.list1 .active{
+    background-color:  #99ccff ;
+    color: #ffffff;
+}

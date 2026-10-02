@@ -1,0 +1,5 @@
+@include('front.plugins.map_modal')
+@include('front.plugins.follower-modal')
+@include('front.plugins.comment-modal')
+@include('front.plugins.message-modal')
+@include('front.plugins.report-modal')

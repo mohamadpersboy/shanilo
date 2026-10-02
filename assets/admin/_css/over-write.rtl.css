@@ -1,0 +1,272 @@
+/* Milad Edit */
+.boxed_color{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.price_old {
+    text-decoration: line-through;
+}
+/* End Milad Edit */
+
+.dataTables_paginate {
+    float: left;
+    text-align: center;
+    margin: 20px 20px 20px 0;
+    position: relative;
+}
+.dataTables_paginate .paginate_button ,.dataTables_paginate span.ellipsis{
+    display: block;
+    padding: 0 10px;
+    min-width: 36px;
+    border:none;
+    border-bottom: 4px solid #ddd;
+    color: #888;
+    margin: 0 3px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    float: right;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius:inherit;
+}
+.dataTables_paginate .paginate_button:hover, .dataTables_paginate .paginate_button:focus,.dataTables_paginate .paginate_button.active {
+    background-color:inherit;
+    border-color: #4cc0cd;
+}
+.dataTables_paginate .paginate_button.current, .dataTables_paginate .paginate_button.current:hover, .dataTables_paginate .paginate_button.current:focus {
+    color: inherit;
+    background-color:inherit;
+    border-color: #4cc0cd;
+}
+.dataTables_paginate .paginate_button.disabled{
+    display: none;
+}
+.dataTables_length {
+    position: relative;
+    color: #666;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    margin: 10px 20px 10px 0;
+}
+.dataTables_length select{
+    border: 0;
+    color: #666;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.dataTables_info {
+    color: #666;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    margin: 25px 0 20px 20px;
+}
+.dataTables_filter {
+    position: relative;
+    margin: 0 0 10px 0;
+}
+td.td_padding_zero{
+    padding: 0 !important;
+}
+th.td_padding_zero{
+    width: 40px !important;
+    padding: 0 0 0 25px !important;
+}
+.sort_container{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.sort_container .sort_handle_style1{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.sorted_table tr.placeholder {
+    display: block;
+    background: red;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.sorted_table tr.placeholder:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: red;
+    margin-top: -5px;
+    left: -5px;
+    border-right: none;
+}
+.modal-dialog {
+    position: relative;
+    width: 450px;
+    margin: 110px auto;
+    font-size: 13px;
+}
+.refresh_table{
+    font-size: 15px;
+    height: 35px;
+    line-height: 31px;
+}
+.refresh_table i {
+    font-size: 16px;
+    top: 0;
+}
+a.data_table_load{
+    padding-top: 3px;
+    vertical-align: middle;
+    height: 35px;
+}
+.show-inline{
+    display: inline-block;
+}
+.dataTables_processing {
+    position: absolute;
+    width: 1%;
+    text-align: center;
+    font-size: 20px;
+}
+.tokenfield .token {
+    margin: 3px 0 0 3px;
+    cursor: default;
+    float: left;
+    position: relative;
+    border-radius: 2px;
+}
+.form_style2 .tokenfield{
+    direction: ltr;
+}
+.form_style2 .tokenfield .token-input {
+    padding-right: 0;
+    padding-left: 7px;
+    direction: ltr;
+}
+.tokenfield .token .token-label {
+    padding: 4px 28px 4px 10px;
+}
+.tokenfield .token .close {
+    left: auto;
+    right: 8px;
+}
+.bg-teal {
+    background-color: #259dab;
+    border-color: #259dab;
+    color: #fff;
+}
+.select2-selection--single .select2-selection__arrow:after {
+    margin-top: -4px;
+}
+.select2-container .select2-selection--single {
+    height: 38px;
+}
+.select2 {
+    width: 100% !important;
+    font-size: 1.2rem;
+}
+.select2-container {
+    font-size: 1.2rem;
+}
+.select2-search--dropdown .select2-search__field {
+    height: 30px;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+}
+.select2-results__option[aria-selected=true] {
+    background-color: #eee;
+    color: #000;
+}
+.select2-search--dropdown:after {
+    left: 24px;
+    right: auto;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #259dab;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+    margin-left: 4px;
+    margin-right: 2px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+    margin-left: 2px;
+    margin-right: 0;
+}
+.select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove {
+    float: right;
+    margin-left: 7px;
+    margin-right: 0;
+}
+.select2-selection--multiple:not([class*=bg-]):not([class*=border-]) {
+    min-height: 38px !important;
+    border-radius: 2px;
+}
+.checkradio_style2 span.switchery .icon {
+    position: absolute;
+    right: 3px;
+    top: 0;
+    color: #888;
+    font-size: 1.3rem;
+    line-height: 18px;
+    transition:none;
+}
+.checkradio_style2 span.switchery .icon:before {
+    content:'\7a';
+    font-family:'adminpanel';
+}
+.checkradio_style2 input[type=checkbox]:checked + span.switchery .icon {
+    left:5px;
+    right:auto;
+    color:#fff;
+    font-size: .9rem;
+}
+.checkradio_style2 input[type=checkbox]:checked + span.switchery .icon:before {
+    content:'\79';
+    font-family:'adminpanel';
+}
+.picklist_style1 .picklist select option {
+    height: 20px;
+}
+select[multiple] option, select[size] option {
+    padding: 3px 12px;
+    border-radius: 2px;
+}
+tr[data-offer='2'] {
+    background-color: rgba(239, 22, 82, 0.11);
+}
+tr[data-read='1'] {
+    font-weight: bold;
+}
+tr[data-status='0'] td.color_bg_change {
+    background-color: rgba(229, 64, 64, 0.1);
+}
+tr[data-status='1'] td.color_bg_change {
+    background-color: rgba(42, 143, 202, 0.1);
+}
+tr[data-status='2'] td.color_bg_change {
+    background-color: rgba(37, 171, 140, 0.1);
+}
+tr[data-status='3'] td.color_bg_change {
+    background-color: rgba(229, 64, 64, 0.1);
+}
+.ui-sortable-helper{
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+    background-color:#e7f3fd ;
+}

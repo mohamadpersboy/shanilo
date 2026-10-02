@@ -1,0 +1,98 @@
+body{
+  direction: rtl;
+}
+*{
+}
+/* Compatibility styles for frameworks like bootstrap, foundation e.t.c */
+.xzoom-source img, .xzoom-preview img, .xzoom-lens img {
+  display: block;
+  max-width: none;
+  max-height: none;
+}
+/* --------------- */
+
+/* xZoom Styles below */
+.xzoom {
+  width:auto !important;
+}
+
+/* Thumbs */
+.xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.xzoom-source, .xzoom-hidden {
+  display: block;
+  position: static;
+  float: none;
+  clear: both;
+  z-index: 10 !important;
+}
+
+
+/* Everything out of border is hidden */
+.xzoom-hidden {
+  overflow: hidden;
+}
+
+/* Preview */
+.xzoom-preview {
+  border:solid 2px rgba(255, 255, 255, 0.2);
+  background: #fff;
+  border-radius:8px;
+  direction: ltr;
+  z-index: 10;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: translateX(-50px);
+  -moz-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  -o-transform: translateX(-50px);
+  transform: translateX(-50px);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lens */
+.xzoom-lens {
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  cursor: crosshair;
+  border-radius:5px;
+}
+
+/* Loading */
+.xzoom-loading {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  opacity: .7;
+  background: url(../images/xloading.gif);
+  width: 48px;
+  height: 48px;
+}
+
+/* Additional class that applied to thumb when it is active */
+/* Caption */
+.xzoom-caption {
+  position: absolute;
+  bottom: -43px;
+  left: 0;
+  background: #f00;
+  width: 100%;
+  text-align: left;
+}
+
+.xzoom-caption span {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 10px;
+}

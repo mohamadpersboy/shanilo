@@ -1,0 +1,69 @@
+@font-face {
+    font-family:'at10';
+    src:url(fonts/at10.eot);
+    src:url(fonts/at10.eot?#iefix) format('embedded-opentype'),
+        /*url(fonts/at10.woff) format('woff'),*/
+    url(fonts/at10.ttf) format('truetype'),
+    url(fonts/at10.svg#at10) format('svg');
+}
+body{
+    font-family:'at10';
+    color: #555;
+    padding: 20px;
+    line-height:28px;
+    text-align: justify;
+    font-size: 0.8rem;
+}
+ ul {
+    margin:10px 0;
+    padding:10px 20px;
+    border-right:solid 3px #935c97;
+    background-color: rgba(0, 0, 0, 0.02);
+    list-style:none;
+    border-radius: 10px 0 0 10px;
+}
+ ul li{
+    position: relative;
+    color: #935c97;
+}
+ li:before{
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 12px;
+    border:solid 3px transparent;
+    border-right-color: #935c97;
+}
+    img {
+    /*width: 90%;*/
+    max-width:80%;
+    margin: 20px auto;
+    display: block;
+    max-height: 400px;
+}
+.title2,
+.title1,
+.title_style7 span,
+.btn_style6,
+.btn_style6.active{
+    background-color: #ffc12a;
+    color: #FFF;
+    padding:10px 20px;
+    border-radius: 50px;
+    margin:10px 0;
+    -webkit-box-shadow: 0 0 20px rgba(255, 174, 0, 0.3);
+    -moz-box-shadow: 0 0 20px rgba(255, 174, 0, 0.3);
+    box-shadow: 0 0 20px rgba(255, 174, 0, 0.3);
+    font-size: 1.2rem;
+}
+.title2{
+    background-color: #976190;
+    -webkit-box-shadow: 0 0 20px rgba(151, 97, 144, 0.3);
+    -moz-box-shadow: 0 0 20px rgba(151, 97, 144, 0.3);
+    box-shadow: 0 0 20px rgba(151, 97, 144, 0.3);
+}
+hr{
+    border: none;
+    border-bottom:dashed 1px #CCC;
+    margin: 10px;
+}

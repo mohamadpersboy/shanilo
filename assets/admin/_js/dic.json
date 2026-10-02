@@ -1,0 +1,66 @@
+{
+    "error_required" : {
+        "fa" : "فیلدهای الزامی را تکمیل نمائید.",
+        "en" : "fill required fields."
+    },
+    "error_general" : {
+        "fa" : "خطایی در انجام عملیات رخ داده است، مجددا تلاش نمائید.",
+        "en" : "an error has occured, try again."
+    },
+    "error_captcha" : {
+        "fa" : "کد امنیتی صحیح نمی باشد.",
+        "en" : "incorrect captcha code."
+    },
+    "error_username" : {
+        "fa" : "نام کاربری صحیح نمی باشد.",
+        "en" : "incorrect username."
+    },
+    "error_password" : {
+        "fa" : "کلمه عبور صحیح نمی باشد.",
+        "en" : "incorrect password."
+    },
+    "error_confirm_password" : {
+        "fa" : "کلمه عبور و تکرار آن یکسان نیستند.",
+        "en" : "incorrect password."
+    },
+    "error_unique_email" : {
+        "fa" : "ایمیل وارد شده قبلا ثبت گردیده است.",
+        "en" : "the email is already registered."
+    },
+    "error_unique_username" : {
+        "fa" : "نام کاربری وارد شده قبلا ثبت گردیده است.",
+        "en" : "the username is already registered."
+    },
+    "error_select_lang" : {
+        "fa" : "زبان انتخابی صحیح نمی باشد.",
+        "en" : "selected language is incorrect."
+    },
+    "error_disable_admin" : {
+        "fa" : "حساب کاربری شما غیر فعال است، موضوع را از طریق مدیر ارشد سایت پیگیری نمائید.",
+        "en" : "your account is disabled, track this issue through senior administrator of site."
+    },
+    "success_general" : {
+        "fa" : "عملیات با موفقیت انجام گردید.",
+        "en" : "the operation was completed successfully."
+    },
+    "logout" : {
+        "fa" : "خروج",
+        "en" : "logout"
+    },
+    "pages_index" : {
+        "fa" : "فهرست صفحات",
+        "en" : "pages index"
+    },
+    "site_messages" : {
+        "fa" : "پیام های سایت",
+        "en" : "site messages"
+    },
+    "site_users" : {
+        "fa" : "کاربران سایت",
+        "en" : "site users"
+    },
+    "search_the_pages" : {
+        "fa" : "جستجوی صفحات",
+        "en" : "search the pages"
+    }
+}

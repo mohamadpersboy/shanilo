@@ -1,0 +1,12 @@
+.tokenfield .token {
+    float: right !important;
+    margin-right: 3px !important;
+}
+.form_style2 .tokenfield .token-input {
+    direction: rtl !important;
+    float: right;
+    width: 100px !important;
+    max-width: auto !important;
+    min-width: auto !important;
+    display: inline-block !important;
+}
