@@ -21,7 +21,7 @@
 |---|---|
 | Repository | `mohamadpersboy/shanilo` (private) |
 | Branch | `main` |
-| Current Phase | قبل از Phase 0 (هنوز شروع نشده) |
+| Current Phase | Phase 0.5 کامل شد. Phase 1 هنوز شروع نشده. |
 | محتوای repository | پروژه Legacy Laravel 5.5 (فقط کد قدیمی) |
 | کد Next.js | وجود ندارد |
 | Tests / Build | برای پروژه جدید هنوز تعریف نشده‌اند |
@@ -156,10 +156,19 @@ READ → UNDERSTAND → INSPECT → PLAN → IMPLEMENT → TEST → UPDATE CLAUD
 
 ## 11. TODO
 
-- [ ] Phase 0: Legacy Reverse Engineering (فقط تحلیل، بدون تغییر کد).
-- [ ] تصمیم درباره حذف یا نگه‌داشتن `pbmedia/laravel-ffmpeg` (Phase 0.5).
+- [x] Phase 0: Legacy Reverse Engineering (`docs/legacy/`، 25 سند).
+- [x] Phase 0.5: Scope & Feature Decisions (`docs/scope/`، 12 سند).
+- [x] تصمیم `pbmedia/laravel-ffmpeg`: REMOVE (کد مرده). منتظر تأیید کاربر (OD-14).
+- [ ] پاسخ کاربر به Open Decisions (`docs/scope/open-decisions.md`، 15 مورد).
 - [ ] Master Prompt و Operating Rules را در `docs/` نگه‌داری کن (در صورت تأیید کاربر).
 
-## 12. Next Phase
+## 12. مستندات تصمیم
 
-Phase 0 — Legacy Reverse Engineering. منتظر دستور کاربر.
+- `docs/legacy/`: شناخت Legacy (Phase 0). تغییر نمی‌کند.
+- `docs/scope/`: تصمیم Scope (Phase 0.5). شروع از `docs/scope/README.md`.
+- تصمیم‌های `OPEN` و `UNKNOWN` را حدس نزن. به `open-decisions.md` رجوع کن.
+- Feature با تصمیم REMOVE تا تأیید کاربر (OD-14) حذف یا پیاده نمی‌شود.
+
+## 13. Next Phase
+
+Phase 1 — Foundation. منتظر دستور کاربر. خودکار شروع نکن.
